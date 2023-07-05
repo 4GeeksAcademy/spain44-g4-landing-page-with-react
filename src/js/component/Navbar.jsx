@@ -9,7 +9,7 @@ const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <a className="text-white navbar-brand" href="#">
-                        <img src="" />LGBTQIA+
+                        <img style={{width:"30px"}} src="https://upload.wikimedia.org/wikipedia/commons/4/48/Gay_Pride_Flag.svg" /><span className="m-2">LGBTQIA+</span>
                         </a>
                     <div className="col-4 collapse navbar-collapse" id="navbarTogglerDemo03">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
