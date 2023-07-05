@@ -31,12 +31,14 @@ export const Jumbotron = () => {
         backgroundPosition: "center",
     };
     //Llamada final del componente
-
+        
+        return( 
         <div className="card" style={jumbotronStyle}>
             <div className="card-body">
                 <h1 className="card-title">{renderColorfulTitle()}</h1>
-                <p className="card-text">{jumboInfo.description}</p>
+                <p className="card-text text-white">{jumboInfo.description}</p>
                 <a href={jumboInfo.url} className="btn btn-primary">Call to Action!</a>
             </div>
         </div>
+        )
 }
