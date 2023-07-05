@@ -3,7 +3,7 @@ import React from "react";
 export const Jumbotron = () => {
     const jumboInfo = {
         titulo: "Gay Pride",
-        description:"Del viernes 23 de junio al domingo 2 de julio de 2023.MADO es la gran fiesta del Orgullo LGBTIQ+ un gran festival para celebrar, debatir y mostrar la diversidad, cuyo acto central será la Manifestación Estatal del Orgullo LGBTIQ+.",
+        description:"Del viernes 23 de junio al domingo 2 de julio de 2023. MADO es la gran fiesta del Orgullo LGBTIQ+ un gran festival para celebrar, debatir y mostrar la diversidad, cuyo acto central será la Manifestación Estatal del Orgullo LGBTIQ+.",
         url: "https://www.madridorgullo.com/",
     }
     //Funcion para seleccionar letra
@@ -39,5 +39,4 @@ export const Jumbotron = () => {
                 <a href={jumboInfo.url} className="btn btn-primary">Call to Action!</a>
             </div>
         </div>
-    )
 }
