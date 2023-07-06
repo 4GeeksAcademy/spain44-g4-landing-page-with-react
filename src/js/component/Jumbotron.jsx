@@ -29,14 +29,20 @@ export const Jumbotron = () => {
         backgroundImage: "url('https://cdn.pixabay.com/photo/2022/06/12/19/53/gay-7258750_1280.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
+        opacity: 0.9,
+    };
+    //texto <h1>
+    const titleStyle = {
+    textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+    fontWeight: "bold",
     };
     //Llamada final del componente
         
         return( 
         <div className="card" style={jumbotronStyle}>
             <div className="card-body">
-                <h1 className="card-title">{renderColorfulTitle()}</h1>
-                <p className="card-text text-white">{jumboInfo.description}</p>
+                <h1 className="card-title" style={titleStyle}>{renderColorfulTitle()}</h1>
+                <p className="card-text text-primary" style={titleStyle}>{jumboInfo.description}</p>
                 <a href={jumboInfo.url} className="btn btn-primary">Call to Action!</a>
             </div>
         </div>
